@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E076EF92739F7DA00E85251 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E076EF82739F67D00E85251 /* Auth0.plist */; };
+		7EA9B4B32739E29300DA2408 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 7EA9B4B22739E29300DA2408 /* Auth0 */; };
+		7EA9B4B72739E32600DA2408 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B4B62739E32600DA2408 /* LoginView.swift */; };
 		7EAAFFD32739DD7600F3ADF2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFD22739DD7600F3ADF2 /* Tests_iOS.swift */; };
 		7EAAFFD52739DD7600F3ADF2 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFD42739DD7600F3ADF2 /* Tests_iOSLaunchTests.swift */; };
-		7EAAFFDF2739DD7600F3ADF2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFDE2739DD7600F3ADF2 /* Tests_macOS.swift */; };
-		7EAAFFE12739DD7600F3ADF2 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFE02739DD7600F3ADF2 /* Tests_macOSLaunchTests.swift */; };
 		7EAAFFE22739DD7600F3ADF2 /* TaxiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBA2739DD7400F3ADF2 /* TaxiApp.swift */; };
-		7EAAFFE32739DD7600F3ADF2 /* TaxiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBA2739DD7400F3ADF2 /* TaxiApp.swift */; };
-		7EAAFFE42739DD7600F3ADF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBB2739DD7400F3ADF2 /* ContentView.swift */; };
-		7EAAFFE52739DD7600F3ADF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBB2739DD7400F3ADF2 /* ContentView.swift */; };
 		7EAAFFE62739DD7600F3ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBC2739DD7600F3ADF2 /* Assets.xcassets */; };
-		7EAAFFE72739DD7600F3ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAAFFBC2739DD7600F3ADF2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,28 +24,18 @@
 			remoteGlobalIDString = 7EAAFFC02739DD7600F3ADF2;
 			remoteInfo = "Taxi (iOS)";
 		};
-		7EAAFFDB2739DD7600F3ADF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7EAAFFB52739DD7400F3ADF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7EAAFFC62739DD7600F3ADF2;
-			remoteInfo = "Taxi (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E076EF72739F43C00E85251 /* Taxi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Taxi--iOS--Info.plist"; sourceTree = "<group>"; };
+		7E076EF82739F67D00E85251 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		7EA9B4B62739E32600DA2408 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7EAAFFBA2739DD7400F3ADF2 /* TaxiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiApp.swift; sourceTree = "<group>"; };
-		7EAAFFBB2739DD7400F3ADF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EAAFFBC2739DD7600F3ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAAFFC12739DD7600F3ADF2 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EAAFFC72739DD7600F3ADF2 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EAAFFC92739DD7600F3ADF2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		7EAAFFCE2739DD7600F3ADF2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAAFFD22739DD7600F3ADF2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		7EAAFFD42739DD7600F3ADF2 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		7EAAFFDA2739DD7600F3ADF2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EAAFFDE2739DD7600F3ADF2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		7EAAFFE02739DD7600F3ADF2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EAAFFC42739DD7600F3ADF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7EA9B4B32739E29300DA2408 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,23 +54,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EAAFFD72739DD7600F3ADF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EA9B4B02739E20100DA2408 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B4B62739E32600DA2408 /* LoginView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		7EAAFFB42739DD7400F3ADF2 = {
 			isa = PBXGroup;
 			children = (
+				7E076EF82739F67D00E85251 /* Auth0.plist */,
+				7E076EF72739F43C00E85251 /* Taxi--iOS--Info.plist */,
 				7EAAFFB92739DD7400F3ADF2 /* Shared */,
-				7EAAFFC82739DD7600F3ADF2 /* macOS */,
 				7EAAFFD12739DD7600F3ADF2 /* Tests iOS */,
-				7EAAFFDD2739DD7600F3ADF2 /* Tests macOS */,
 				7EAAFFC22739DD7600F3ADF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +79,8 @@
 		7EAAFFB92739DD7400F3ADF2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				7EA9B4B02739E20100DA2408 /* User */,
 				7EAAFFBA2739DD7400F3ADF2 /* TaxiApp.swift */,
-				7EAAFFBB2739DD7400F3ADF2 /* ContentView.swift */,
 				7EAAFFBC2739DD7600F3ADF2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -108,19 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				7EAAFFC12739DD7600F3ADF2 /* Taxi.app */,
-				7EAAFFC72739DD7600F3ADF2 /* Taxi.app */,
 				7EAAFFCE2739DD7600F3ADF2 /* Tests iOS.xctest */,
-				7EAAFFDA2739DD7600F3ADF2 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7EAAFFC82739DD7600F3ADF2 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				7EAAFFC92739DD7600F3ADF2 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		7EAAFFD12739DD7600F3ADF2 /* Tests iOS */ = {
@@ -130,15 +102,6 @@
 				7EAAFFD42739DD7600F3ADF2 /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		7EAAFFDD2739DD7600F3ADF2 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				7EAAFFDE2739DD7600F3ADF2 /* Tests_macOS.swift */,
-				7EAAFFE02739DD7600F3ADF2 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,25 +120,11 @@
 			dependencies = (
 			);
 			name = "Taxi (iOS)";
+			packageProductDependencies = (
+				7EA9B4B22739E29300DA2408 /* Auth0 */,
+			);
 			productName = "Taxi (iOS)";
 			productReference = 7EAAFFC12739DD7600F3ADF2 /* Taxi.app */;
-			productType = "com.apple.product-type.application";
-		};
-		7EAAFFC62739DD7600F3ADF2 /* Taxi (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EAAFFED2739DD7600F3ADF2 /* Build configuration list for PBXNativeTarget "Taxi (macOS)" */;
-			buildPhases = (
-				7EAAFFC32739DD7600F3ADF2 /* Sources */,
-				7EAAFFC42739DD7600F3ADF2 /* Frameworks */,
-				7EAAFFC52739DD7600F3ADF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Taxi (macOS)";
-			productName = "Taxi (macOS)";
-			productReference = 7EAAFFC72739DD7600F3ADF2 /* Taxi.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7EAAFFCD2739DD7600F3ADF2 /* Tests iOS */ = {
@@ -196,24 +145,6 @@
 			productReference = 7EAAFFCE2739DD7600F3ADF2 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		7EAAFFD92739DD7600F3ADF2 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EAAFFF32739DD7600F3ADF2 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				7EAAFFD62739DD7600F3ADF2 /* Sources */,
-				7EAAFFD72739DD7600F3ADF2 /* Frameworks */,
-				7EAAFFD82739DD7600F3ADF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7EAAFFDC2739DD7600F3ADF2 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 7EAAFFDA2739DD7600F3ADF2 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,16 +158,9 @@
 					7EAAFFC02739DD7600F3ADF2 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					7EAAFFC62739DD7600F3ADF2 = {
-						CreatedOnToolsVersion = 13.1;
-					};
 					7EAAFFCD2739DD7600F3ADF2 = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 7EAAFFC02739DD7600F3ADF2;
-					};
-					7EAAFFD92739DD7600F3ADF2 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7EAAFFC62739DD7600F3ADF2;
 					};
 				};
 			};
@@ -247,16 +171,18 @@
 			knownRegions = (
 				en,
 				Base,
+				"bg-BG",
 			);
 			mainGroup = 7EAAFFB42739DD7400F3ADF2;
+			packageReferences = (
+				7EA9B4B12739E29300DA2408 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+			);
 			productRefGroup = 7EAAFFC22739DD7600F3ADF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7EAAFFC02739DD7600F3ADF2 /* Taxi (iOS) */,
-				7EAAFFC62739DD7600F3ADF2 /* Taxi (macOS) */,
 				7EAAFFCD2739DD7600F3ADF2 /* Tests iOS */,
-				7EAAFFD92739DD7600F3ADF2 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -266,26 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E076EF92739F7DA00E85251 /* Auth0.plist in Resources */,
 				7EAAFFE62739DD7600F3ADF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EAAFFC52739DD7600F3ADF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EAAFFE72739DD7600F3ADF2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EAAFFCC2739DD7600F3ADF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EAAFFD82739DD7600F3ADF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,17 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EAAFFE42739DD7600F3ADF2 /* ContentView.swift in Sources */,
+				7EA9B4B72739E32600DA2408 /* LoginView.swift in Sources */,
 				7EAAFFE22739DD7600F3ADF2 /* TaxiApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EAAFFC32739DD7600F3ADF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EAAFFE52739DD7600F3ADF2 /* ContentView.swift in Sources */,
-				7EAAFFE32739DD7600F3ADF2 /* TaxiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,15 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EAAFFD62739DD7600F3ADF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EAAFFE12739DD7600F3ADF2 /* Tests_macOSLaunchTests.swift in Sources */,
-				7EAAFFDF2739DD7600F3ADF2 /* Tests_macOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -338,11 +232,6 @@
 			isa = PBXTargetDependency;
 			target = 7EAAFFC02739DD7600F3ADF2 /* Taxi (iOS) */;
 			targetProxy = 7EAAFFCF2739DD7600F3ADF2 /* PBXContainerItemProxy */;
-		};
-		7EAAFFDC2739DD7600F3ADF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7EAAFFC62739DD7600F3ADF2 /* Taxi (macOS) */;
-			targetProxy = 7EAAFFDB2739DD7600F3ADF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,9 +287,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -451,8 +342,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -468,6 +361,7 @@
 				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taxi--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,7 +378,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -498,6 +392,7 @@
 				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taxi--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -514,64 +409,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7EAAFFEE2739DD7600F3ADF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Knock.Taxi;
-				PRODUCT_NAME = Taxi;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		7EAAFFEF2739DD7600F3ADF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Knock.Taxi;
-				PRODUCT_NAME = Taxi;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -626,56 +465,6 @@
 			};
 			name = Release;
 		};
-		7EAAFFF42739DD7600F3ADF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Knock.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Taxi (macOS)";
-			};
-			name = Debug;
-		};
-		7EAAFFF52739DD7600F3ADF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9ZYAQZ7TWL;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Knock.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Taxi (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,15 +486,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EAAFFED2739DD7600F3ADF2 /* Build configuration list for PBXNativeTarget "Taxi (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EAAFFEE2739DD7600F3ADF2 /* Debug */,
-				7EAAFFEF2739DD7600F3ADF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7EAAFFF02739DD7600F3ADF2 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -715,16 +495,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EAAFFF32739DD7600F3ADF2 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EAAFFF42739DD7600F3ADF2 /* Debug */,
-				7EAAFFF52739DD7600F3ADF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EA9B4B12739E29300DA2408 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EA9B4B22739E29300DA2408 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EA9B4B12739E29300DA2408 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7EAAFFB52739DD7400F3ADF2 /* Project object */;
 }

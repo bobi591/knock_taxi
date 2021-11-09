@@ -2,9 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>com.apple.security.app-sandbox</key>
-    <true/>
-    <key>com.apple.security.files.user-selected.read-only</key>
-    <true/>
+   <key>ClientId</key>
+   <string>T3ZB9CndjKBAgG0VV9mSFTq3LPaXXU4k</string>
+   <key>Domain</key>
+   <string>dev-1y7dhb8a.eu.auth0.com</string>
 </dict>
 </plist>
