@@ -1,9 +1,9 @@
 package com.knock.taxi.controllers;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.http.MediaType;
 
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
@@ -11,6 +11,7 @@ public class HelloWorldController {
 	
 	@GetMapping(value = "/public/helloworld")
 	public String PublicHello() {
+
 		return "Hello from the public API";
 	}
 	
