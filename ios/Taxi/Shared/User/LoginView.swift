@@ -19,7 +19,7 @@ struct LoginView: View {
                 Auth0
                     .webAuth()
                     .scope("openid profile")
-                    .audience("https://dev-1y7dhb8a.eu.auth0.com/userinfo")
+                    .audience("http://localhost:8080/") //This URL is the current hostname of the Knock Taxi API
                     .start { result in
                         switch result {
                         case .failure(let error):
@@ -27,7 +27,6 @@ struct LoginView: View {
                             print("Error: \(error)")
                         case .success(let credentials):
                             apiAccessToken = credentials.accessToken!;
-                            print("Credentials: \(credentials)")
                         }
                 }
             }).buttonStyle(.borderedProminent)
