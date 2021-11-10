@@ -1,8 +1,8 @@
-package com.knock.taxi.customer;
+package com.knock.taxi.ordering.dto;
 
 import java.util.Date;
 
-import com.knock.taxi.customer.enums.OrderStatus;
+import com.knock.taxi.ordering.enums.OrderStatus;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,8 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Order {
 
-	public Order(Customer customer, Date time, String destination){
-		this.customerId = customer.getId();
+	public Order(String customerId, Date time, String destination) {
+		this.customerId = customerId;
 		this.time = time;
 		this.status = OrderStatus.CREATED;
 		this.destination = destination;

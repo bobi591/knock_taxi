@@ -10,26 +10,36 @@ import Auth0
 
 struct LoginView: View {
     
-    @State private var apiAccessToken:String = "";
+    @State private var isLoggedIn:Bool = false;
+    @State private var orders:Array<Order> = [];
     
     var body: some View {
-        VStack{
-            Text("Welcome")
-            Button("Login", action: {
-                Auth0
-                    .webAuth()
-                    .scope("openid profile")
-                    .audience("http://localhost:8080/") //This URL is the current hostname of the Knock Taxi API
-                    .start { result in
-                        switch result {
-                        case .failure(let error):
-                            // Handle the error
-                            print("Error: \(error)")
-                        case .success(let credentials):
-                            apiAccessToken = credentials.accessToken!;
-                        }
-                }
-            }).buttonStyle(.borderedProminent)
+        if isLoggedIn == true{
+            //OrderView(orders: orders)
+            MapView()
+        }
+        else{
+            VStack{
+                Text("Welcome")
+                Button("Login", action: {
+                    Auth0
+                        .webAuth()
+                        .scope("openid profile email")
+                        .audience("http://localhost:8080/") //This URL is the current hostname of the Knock Taxi API
+                        .start { result in
+                            switch result {
+                            case .failure(let error):
+                                print("Error: \(error)")
+                            case .success(let credentials):
+                                ProfileManager.storeAccessToken(accessToken: credentials.accessToken!);
+                                OrderAPI().getOrders { ordersArray in
+                                    orders = ordersArray;
+                                }
+                                isLoggedIn = true;
+                            }
+                    }
+                }).buttonStyle(.borderedProminent)
+            }
         }
     }
 }
@@ -38,7 +48,6 @@ struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             LoginView()
-            
         }
     }
 }
