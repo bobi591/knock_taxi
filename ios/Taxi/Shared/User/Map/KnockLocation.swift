@@ -10,10 +10,10 @@ import MapKit
 
 class KnockLocation : NSObject, CLLocationManagerDelegate{
     public var locationManager:CLLocationManager = CLLocationManager()
-    public var coordinateRegion:MKCoordinateRegion = MKCoordinateRegion();
+    public var coordinateRegion:MKCoordinateRegion = MKCoordinateRegion()
     
     public func updateLocation(){
-        //locationManager.delegate = self;
+        locationManager.delegate = self
         if locationManager.authorizationStatus != .authorizedWhenInUse{
             locationManager.requestWhenInUseAuthorization()
         }
@@ -21,13 +21,13 @@ class KnockLocation : NSObject, CLLocationManagerDelegate{
             locationManager.startUpdatingLocation()
             locationManager.startUpdatingHeading()
             if locationManager.location != nil{
-                let latitude = locationManager.location?.coordinate.latitude;
-                let longtitude = locationManager.location?.coordinate.longitude;
+                let latitude = locationManager.location?.coordinate.latitude
+                let longtitude = locationManager.location?.coordinate.longitude
                 let center = CLLocationCoordinate2D(latitude: latitude!, longitude: longtitude!)
-                self.coordinateRegion = MKCoordinateRegion(center: center, latitudinalMeters: 1000, longitudinalMeters: 1000)
+                self.coordinateRegion = MKCoordinateRegion(center: center, latitudinalMeters: 100, longitudinalMeters: 100)
             }
             else{
-                updateLocation();
+                updateLocation()
             }
         }
     }

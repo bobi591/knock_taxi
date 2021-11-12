@@ -7,11 +7,11 @@
 
 import Foundation
 public struct Order : Codable, Identifiable{
-    public var id:String;
-    public var customerId:String;
-    public var time:Date;
-    public var status:OrderStatus;
-    public var destination:String;
+    public var id:String
+    public var customerId:String
+    public var time:Date
+    public var status:OrderStatus
+    public var destination:String
 }
 
 public enum OrderStatus : Codable {
